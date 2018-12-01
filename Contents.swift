@@ -1,8 +1,9 @@
 // project 01.  Date of commit (3.1): 12/01/2018
 
 /*
- Michael Kiss
- iOS Developer.  Unit 01 project.  Soccer League Coordinator.  Goal is sort the information below into 2 initail groups (experienced and inexperienced) players.  Next I want to sort them into 3 teams.  (Sharks, Dragons and Raptors).  They should have an equal number of exp and inexp players.  Ex cred - also sort them within an average height of 1.5 inches of each other.  Lastly, compose a letter to be sent to guardians informing them of which team their child has been placed on, and the time and date of the first practice.
+ Michael Kiss.
+
+ iOS Developer.  Unit 01 project.  Soccer League Coordinator.  Goal is sort the information below into 2 initial groups (experienced and inexperienced) players.  Next I want to sort them into 3 teams.  (Sharks, Dragons and Raptors).  They should have an equal number of exp and inexp players.  Ex cred - also sort them within an average height of 1.5 inches of each other.  Lastly, compose a letter to be sent to guardians informing them of which team their child has been placed on, and the time and date of the first practice.
 
  Player Data
 
