@@ -1,10 +1,10 @@
-// project 01.  Date of commit (2): 11/30/18
+// project 01.  Date of commit (3): 11/30/18
 /*
  Michael Kiss
  iOS Developer.  Unit 01 project.  Soccer League Coordinator.  Goal is sort the information below into 2 initail groups (experienced and inexperienced) players.  Next I want to sort them into 3 teams.  (Sharks, Dragons and Raptors).  They should have an equal number of exp and inexp players.  Ex cred - also sort them within an average height of 1.5 inches of each other.  Lastly, compose a letter to be sent to guardians informing them of which team their child has been placed on, and the time and date of the first practice.
- 
+
  Player Data
- 
+
  Name            Height (inches)    Soccer Experience        Guardian Name(s)
  Joe Smith             42                 YES                Jim and Jan Smith
  Jill Tanner           36                 YES                Clara Tanner
@@ -24,13 +24,13 @@
  Phillip Helm          44                 YES                Thomas Helm and Eva Jones
  Les Clay              42                 YES                Wynonna Brown
  Herschel Krustofski   45                 YES                Hyman and Rachel Krustofski
- 
+
  Team names and their initial practice dates and times
- 
+
  Dragons - March 17, 1pm
  Sharks - March 17, 3pm
  Raptors - March 18, 1pm
- 
+
  */
 // step 1: populate my players array with the above info
 let players: [[String: Any]] = [
@@ -84,12 +84,12 @@ var league = [teamDragons, teamSharks, teamRaptors]
 func teamAssignment () {
     let experiencedPlayerCount: Int = experiencedPlayer.count / league.count
     let inexperiencedPlayerCount: Int = players.count / league.count
-    
+
     // inexperienced players here equals max players per team.  Or if you prefer, total
     // players / teams.  Since the experienced logic runs first it should populate
     // the inexperienced with the remainder of players (10 thru 18).  This is also where I
     // would expect to capture any additional players
-    
+
     for player in experiencedPlayer {
         if teamDragons.count != experiencedPlayerCount {
             teamDragons.append(player)
@@ -171,8 +171,3 @@ for letter in letters {
  */
 
 //  the end... of project 1
-
-
-
-
-
