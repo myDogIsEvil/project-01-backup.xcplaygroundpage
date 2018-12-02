@@ -1,4 +1,4 @@
-// project 01.  Date of commit (3.2): 12/01/2018
+// project 01.  Date of commit (3.3): 12/01/2018
 
 /*
  Michael Kiss.
@@ -69,8 +69,8 @@ var experiencedPlayers: [[String: Any]] = []
 var inexperiencedPlayers: [[String: Any]] = []
 
 for sortPlayers in players {
-    if let experiencePlayer = sortPlayers["isPlayerExperienced"] {
-        switch experiencePlayer as! Bool {
+    if let experiencePlayer = sortPlayers["isPlayerExperienced"] as? Bool {
+        switch experiencePlayer {
         case true:  experiencedPlayers.append(sortPlayers)
         case false:  inexperiencedPlayers.append(sortPlayers)
         }
